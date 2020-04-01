@@ -1,0 +1,10 @@
+com/redhat/consultingbr/testekieserver/domain/Greeting.class
+com/redhat/consultingbr/testekieserver/TesteKieserverApplication.class
+com/redhat/consultingbr/testekieserver/service/KieServerService$1$1.class
+com/redhat/consultingbr/testekieserver/controller/IssueChamadoKSController.class
+br/gov/ce/fortaleza/sepog/domain/IssueChamadoKSPessoa.class
+com/redhat/consultingbr/testekieserver/service/KieServerService$1.class
+com/redhat/consultingbr/testekieserver/service/IssueChamadoKSService.class
+com/redhat/consultingbr/testekieserver/ServletInitializer.class
+com/redhat/consultingbr/testekieserver/service/KieServerService.class
+com/redhat/consultingbr/testekieserver/service/KieServerService$1$2.class
