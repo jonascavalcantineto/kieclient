@@ -31,11 +31,11 @@ public class KieServerService {
 
 	private KieServicesConfiguration conf;
 	
+	 private static final MarshallingFormat FORMAT = MarshallingFormat.JAXB;
+	
 	public RuleServicesClient criarConexaoKieServer(String url,String  username,String password) throws Exception {
 		conf = KieServicesFactory.newRestConfiguration(url, username, password);
-		conf.setMarshallingFormat(MarshallingFormat.JSON); 
-
-
+		
         Set<Class<?>> allClasses = new HashSet<Class<?>>();
         allClasses.add(IssueChamadoKSPessoa.class);
 	/*	allClasses.add(tabelaInstrutoria.class);
@@ -59,11 +59,14 @@ public class KieServerService {
 		allClasses.add(TipoVerbaOficial.class);
 		allClasses.add(Verba.class); */
 		conf.addExtraClasses(allClasses);
+		
 		if (url.toLowerCase().startsWith("https")) {
 			conf.setUseSsl(true);
             forgiveUnknownCert();
         }
 		System.out.println(conf.toString());
+		
+		conf.setMarshallingFormat(FORMAT); 
 		
 		KieServicesClient client = KieServicesFactory.newKieServicesClient(conf);
 		RuleServicesClient ruleClient = client.getServicesClient(RuleServicesClient.class);
