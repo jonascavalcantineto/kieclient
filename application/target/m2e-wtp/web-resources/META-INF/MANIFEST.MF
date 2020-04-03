@@ -1,6 +1,10 @@
 Manifest-Version: 1.0
 Implementation-Title: teste-kieserver
 Implementation-Version: 0.0.1-SNAPSHOT
-Build-Jdk-Spec: 1.8
+Built-By: jonascavalcantineto
+Implementation-Vendor-Id: com.redhat.consultingbr
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/teste-kieserver
 Created-By: Maven Integration for Eclipse
 

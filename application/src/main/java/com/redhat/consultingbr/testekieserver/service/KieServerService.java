@@ -1,6 +1,7 @@
 package com.redhat.consultingbr.testekieserver.service;
 
 import java.io.IOException;
+
 import java.lang.reflect.Field;
 import java.net.HttpURLConnection;
 import java.net.Proxy;
@@ -31,7 +32,7 @@ public class KieServerService {
 
 	private KieServicesConfiguration conf;
 	
-	 private static final MarshallingFormat FORMAT = MarshallingFormat.JAXB;
+	 private static final MarshallingFormat FORMAT = MarshallingFormat.JSON;
 	
 	public RuleServicesClient criarConexaoKieServer(String url,String  username,String password) throws Exception {
 		conf = KieServicesFactory.newRestConfiguration(url, username, password);

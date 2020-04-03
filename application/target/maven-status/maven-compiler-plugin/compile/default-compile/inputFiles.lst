@@ -1,7 +1,7 @@
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/com/redhat/consultingbr/testekieserver/TesteKieserverApplication.java
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/com/redhat/consultingbr/testekieserver/domain/Greeting.java
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/br/gov/ce/fortaleza/sepog/domain/IssueChamadoKSPessoa.java
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/com/redhat/consultingbr/testekieserver/controller/IssueChamadoKSController.java
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/com/redhat/consultingbr/testekieserver/service/IssueChamadoKSService.java
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/com/redhat/consultingbr/testekieserver/service/KieServerService.java
-/Users/jonascavalcantineto/Downloads/teste-kieserver/src/main/java/com/redhat/consultingbr/testekieserver/ServletInitializer.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/br/gov/ce/fortaleza/sepog/domain/IssueChamadoKSPessoa.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/com/redhat/consultingbr/testekieserver/domain/Greeting.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/com/redhat/consultingbr/testekieserver/service/IssueChamadoKSService.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/com/redhat/consultingbr/testekieserver/controller/IssueChamadoKSController.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/com/redhat/consultingbr/testekieserver/service/KieServerService.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/com/redhat/consultingbr/testekieserver/ServletInitializer.java
+/Users/jonascavalcantineto/development/repositories/github/jonascavalcantineto/kieclient/application/src/main/java/com/redhat/consultingbr/testekieserver/TesteKieserverApplication.java
